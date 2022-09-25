@@ -10,6 +10,8 @@ class SettingsController extends Controller
 {
     public function create(Request $request)
     {
-        return Inertia::render('Settings/Create');
+        return Inertia::render('Settings/Create', [
+            'settings' => [],
+        ]);
     }
 }
