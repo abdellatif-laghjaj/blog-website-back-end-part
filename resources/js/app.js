@@ -1,23 +1,26 @@
-import './bootstrap';
-import '../css/app.css';
+require('./bootstrap');
 
-import { createApp, h } from 'vue';
-import { createInertiaApp } from '@inertiajs/inertia-vue3';
-import { InertiaProgress } from '@inertiajs/progress';
-import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
-import { ZiggyVue } from '../../vendor/tightenco/ziggy/dist/vue.m';
+import Vue from 'vue';
 
-const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Laravel';
+import { InertiaApp } from '@inertiajs/inertia-vue';
+import { InertiaForm } from 'laravel-jetstream';
+import PortalVue from 'portal-vue';
+import CKEditor from '@ckeditor/ckeditor5-vue';
 
-createInertiaApp({
-    title: (title) => `${title} - ${appName}`,
-    resolve: (name) => resolvePageComponent(`./Pages/${name}.vue`, import.meta.glob('./Pages/**/*.vue')),
-    setup({ el, app, props, plugin }) {
-        return createApp({ render: () => h(app, props) })
-            .use(plugin)
-            .use(ZiggyVue, Ziggy)
-            .mount(el);
-    },
-});
+Vue.mixin({ methods: { route } });
+Vue.use(InertiaApp);
+Vue.use(InertiaForm);
+Vue.use(PortalVue);
+Vue.use(CKEditor);
 
-InertiaProgress.init({ color: '#4B5563' });
+const app = document.getElementById('app');
+
+new Vue({
+  render: (h) =>
+    h(InertiaApp, {
+      props: {
+        initialPage: JSON.parse(app.dataset.page),
+        resolveComponent: (name) => require(`./Pages/${name}`).default,
+      },
+    }),
+}).$mount(app);
