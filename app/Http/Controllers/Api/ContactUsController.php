@@ -13,12 +13,13 @@ class ContactUsController extends Controller
     {
         $data = $request->validate([
             'name' => ['required', 'string', 'max:50'],
+            'subject' => ['required', 'string', 'max:100'],
             'email' => ['required', 'string', 'email', 'max:50'],
             'phone' => ['required', 'string', 'max:20'],
             'message' => ['required', 'string', 'max:200'],
         ]);
 
-        Mail::to('contact@laratips.com')->send(new SentContactUsMail($data));
+        Mail::to('abdelatiflaghjaj@gmail.com')->send(new SentContactUsMail($data));
 
         return response()->json([
             'message' => 'Your message has been submitted successfully.',

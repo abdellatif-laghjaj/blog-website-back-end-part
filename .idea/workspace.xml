@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4320e4da-09e0-47b4-b98a-e4351f66e288" name="Changes" comment="bug fixes">
+    <list default="true" id="4320e4da-09e0-47b4-b98a-e4351f66e288" name="Changes" comment="dynamic images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Setting.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Setting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ContactUsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ContactUsController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +223,7 @@
       <workItem from="1664223705706" duration="978000" />
       <workItem from="1664224788882" duration="2781000" />
       <workItem from="1664227741706" duration="4503000" />
-      <workItem from="1664382175691" duration="8429000" />
+      <workItem from="1664382175691" duration="9346000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1664107716165</created>
@@ -267,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664401093910</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dynamic images">
+      <created>1664402688758</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664402688758</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +299,7 @@
     <MESSAGE value="post articles" />
     <MESSAGE value="fix image upload" />
     <MESSAGE value="bug fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fixes" />
+    <MESSAGE value="dynamic images" />
+    <option name="LAST_COMMIT_MESSAGE" value="dynamic images" />
   </component>
 </project>
