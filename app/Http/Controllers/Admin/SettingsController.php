@@ -94,6 +94,7 @@ class SettingsController extends Controller
 
     private function save(array $data): void
     {
+        //check if settings
         $this->settings->data = array_merge($this->settings->data, $data);
         $this->settings->save();
     }
