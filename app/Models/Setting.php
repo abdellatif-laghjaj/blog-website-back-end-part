@@ -21,7 +21,7 @@ class Setting extends Model implements ImageableContract
 
     public function uploadFolder(): string
     {
-        return "settings";
+        return "public/settings";
     }
 
     public function heroDescription(): ?string
