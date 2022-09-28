@@ -17,7 +17,7 @@ class Article extends Model implements ImageableContract
 
     public function uploadFolder(): string
     {
-        return "articles";
+        return "public/articles";
     }
 
     public function category(): BelongsTo

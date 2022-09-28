@@ -10,7 +10,7 @@ class ArticleResource extends JsonResource
     /**
      * Transform the resource into an array.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
      * @return array
      */
     public function toArray($request)
@@ -24,7 +24,7 @@ class ArticleResource extends JsonResource
             $this->mergeWhen($this->description, function () {
                 return [
                     'description' => $this->description,
-                    'small_description' => Str::limit(strip_tags($this->description), 80),
+                    'small_description' => Str::limit(strip_tags($this->description), 100),
                 ];
             }),
 
