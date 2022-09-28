@@ -1,11 +1,12 @@
 @component('mail::message')
-# Contact Us Mail Feedback
+    # Contact Us Mail Feedback
 
-<p>Name: {{ $data['name'] }}</p>
-<p>Email: {{ $data['email'] }}</p>
-<p>Phone: {{ $data['phone'] }}</p>
-<p>Message: {{ $data['message'] }}</p>
+    Name: {{ $data['name'] }}
+    Subject: {{ $data['subject'] }}
+    Email: {{ $data['email'] }}
+    Phone: {{ $data['phone'] }}
+    Message: {{ $data['message'] }}
 
-Thanks,<br>
-{{ config('app.name') }}
+    Thanks.
+    {{ config('app.name') }}
 @endcomponent
