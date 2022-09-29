@@ -4382,6 +4382,27 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -28259,8 +28280,95 @@ var render = function() {
         _c("div", { staticClass: "max-w-7xl mx-auto sm:px-6 lg:px-8" }, [
           _c(
             "div",
-            { staticClass: "bg-white overflow-hidden shadow-xl sm:rounded-lg" },
-            [_vm._v("\n        The dashboard page content\n      ")]
+            {
+              staticClass:
+                "bg-white overflow-hidden shadow-xl sm:rounded-lg py-4 px-4"
+            },
+            [
+              _c("h1", { staticClass: "text-2xl font-bold" }, [
+                _vm._v("Welcome to your blog admin panel!")
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "my-3 italic" }, [
+                _vm._v(
+                  "Here you can manage your blog posts, categories, blog pages content, and\n                    more."
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "ul",
+                {
+                  staticClass:
+                    "w-full text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+                },
+                [
+                  _c(
+                    "li",
+                    {
+                      staticClass:
+                        "py-2 px-4 w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600"
+                    },
+                    [
+                      _vm._v(
+                        "\n                        Manage your profile\n                    "
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "li",
+                    {
+                      staticClass:
+                        "py-2 px-4 w-full border-b border-gray-200 dark:border-gray-600"
+                    },
+                    [
+                      _vm._v(
+                        "\n                        Manage your blog posts\n                    "
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "li",
+                    {
+                      staticClass:
+                        "py-2 px-4 w-full border-b border-gray-200 dark:border-gray-600"
+                    },
+                    [
+                      _vm._v(
+                        "\n                        Manage your blog categories\n                    "
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "li",
+                    {
+                      staticClass:
+                        "py-2 px-4 w-full border-b border-gray-200 dark:border-gray-600"
+                    },
+                    [
+                      _vm._v(
+                        "\n                        Manage your blog pages content\n                    "
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "li",
+                    {
+                      staticClass:
+                        "py-2 px-4 w-full rounded-b-lg border-b border-gray-200 dark:border-gray-600"
+                    },
+                    [
+                      _vm._v(
+                        "\n                        Manage your contact information\n                    "
+                      )
+                    ]
+                  )
+                ]
+              )
+            ]
           )
         ])
       ])
