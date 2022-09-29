@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4320e4da-09e0-47b4-b98a-e4351f66e288" name="Changes" comment="update Dashboard.vue">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/082bc727-08e8-4a77-969e-6b0bf27cb846.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/082bc727-08e8-4a77-969e-6b0bf27cb846.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="4320e4da-09e0-47b4-b98a-e4351f66e288" name="Changes" comment="update home page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -230,7 +222,7 @@
       <workItem from="1664227741706" duration="4503000" />
       <workItem from="1664382175691" duration="13570000" />
       <workItem from="1664410279583" duration="337000" />
-      <workItem from="1664410996981" duration="2127000" />
+      <workItem from="1664410996981" duration="2687000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1664107716165</created>
@@ -295,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664409032268</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update home page">
+      <created>1664413284780</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664413284780</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +323,7 @@
     <MESSAGE value="send mails" />
     <MESSAGE value="update mail markdown" />
     <MESSAGE value="update Dashboard.vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Dashboard.vue" />
+    <MESSAGE value="update home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="update home page" />
   </component>
 </project>
